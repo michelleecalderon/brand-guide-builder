@@ -1,10 +1,10 @@
 # brand-guide-builder
 
-A [Claude Skill](https://docs.claude.com) that walks you through building a complete brand guide in conversation, then exports it three ways: a shareable web page, a paginated visual guide, and an AI-ready prompt you can paste into any chat tool so future AI-generated work stays on brand.
+A Skill that walks you through building a complete brand guide in conversation, then exports it three ways: a shareable web page, a paginated visual guide, and an AI-ready prompt you can paste into any chat tool so future AI-generated work stays on brand.
 
 ## What it does
 
-Claude runs six steps, confirming each one before moving on:
+Runs six steps, confirming each one before moving on:
 
 | Step | You provide | The skill does |
 |---|---|---|
@@ -17,10 +17,10 @@ Claude runs six steps, confirming each one before moving on:
 
 ### Exports
 
-- **Shareable brand guide**: one self-contained HTML page, published as a Claude artifact with a link that stays current when you edit it
+- **Shareable brand guide**: one self-contained HTML page or file, in Claude is published as an artifact with a link that stays current when you edit it
 - **Paginated visual guide**: a page-by-page layout with a colored sidebar label, content area, and ABOUT / USAGE footer on every page (see `references/visual-guide-pages.md`)
 - **AI-ready prompt**: a short markdown block of your brand system, with the voice translated into instructions a model can follow (see `examples/fernhill-bakery/ai-prompt.md`)
-- **PDF / Word**: produced via Claude's document skills if you want a file
+- **PDF / Word**: produced via each ai's document skills if you want a file
 
 The guide's own visual design is deliberately not fixed. Your palette, fonts and logo drive how it looks.
 
@@ -42,11 +42,13 @@ Just ask:
 
 > I need an accessible color palette and a style guide for my side project.
 
+> Add link of any website to get its brand guideline 
+
 ## Repo layout
 
 ```
 skills/brand-guide-builder/
-  SKILL.md                  the instructions Claude follows
+  SKILL.md                  the instructions it follows
   scripts/contrast_check.py WCAG contrast calculator (stdlib only, Python 3.8+)
   references/               page structure, paginated template, AI prompt format
 examples/fernhill-bakery/   a fictional brand run through the flow
