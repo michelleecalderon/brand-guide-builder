@@ -1,0 +1,33 @@
+COMBINATION          RATIO   AA   AAA  
+Flour on Espresso    15.23   yes  yes  
+Espresso on Flour    15.23   yes  yes  
+Mist on Espresso     13.25   yes  yes  
+Espresso on Mist     13.25   yes  yes  
+Butter on Espresso   11.38   yes  yes  
+Espresso on Butter   11.38   yes  yes  
+Apricot on Espresso  8.46    yes  yes  
+Espresso on Apricot  8.46    yes  yes  
+Pine on Flour        7.0     yes  yes  
+Flour on Pine        7.0     yes  yes  
+Pine on Mist         6.09    yes  -    
+Mist on Pine         6.09    yes  -    
+Pine on Butter       5.23    yes  -    
+Butter on Pine       5.23    yes  -    
+Pine on Apricot      3.89    -    -    
+Apricot on Pine      3.89    -    -    
+Pine on Espresso     2.17    -    -    
+Espresso on Pine     2.17    -    -    
+Apricot on Flour     1.8     -    -    
+Flour on Apricot     1.8     -    -    
+Apricot on Mist      1.57    -    -    
+Mist on Apricot      1.57    -    -    
+Butter on Apricot    1.34    -    -    
+Butter on Flour      1.34    -    -    
+Apricot on Butter    1.34    -    -    
+Flour on Butter      1.34    -    -    
+Butter on Mist       1.16    -    -    
+Mist on Butter       1.16    -    -    
+Mist on Flour        1.15    -    -    
+Flour on Mist        1.15    -    -    
+
+14 of 30 combinations pass AA (4.5:1) for normal text.
